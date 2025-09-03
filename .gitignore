@@ -1,0 +1,56 @@
+# 环境变量文件 - 包含API密钥等敏感信息
+.env
+.env.local
+.env.*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE/编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 构建输出
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# 缓存
+.cache/
+.temp/
+.tmp/
+
+# 日志文件
+*.log
+logs/
+
+# 服务配置文件（可能包含敏感信息）
+ecosystem.config.js
+*.service
+
+# Shell脚本（可能包含敏感命令）
+*.sh
+
+# 系统配置文件
+.bash_history
+.bashrc
+.bash_logout
+.profile
+
+# PM2相关
+.pm2/
+
+# 临时文件
+*.tmp
+*.temp
